@@ -69,15 +69,3 @@ dd_plot <- function(plot_name,
   ## variable or silently ignored.
   invisible(plot_grid)
 }
-
-
-plot.label.sources <-" Eurostat (2019) Real GDP per capita [Data file] Retrieved from: https://ec.europa.eu/eurostat/web/products-datasets/-/sdg_08_10 \r\n Eurostat (2019) Greenhouse gas emissions per capita [Data file] Retrieved from: https://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rd300"
-
-
-dd_plot(plot_name = plot.dumbbell,
-              source = plot.label.sources,
-              save_filepath = "dumbell2.png",
-              width_pixels = 640,
-              height_pixels = 500,
-              logo_image_path = "placeholder.png")
-
